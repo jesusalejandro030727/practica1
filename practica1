@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos</title>
+</head> 
+<body>
+    <script>
+        let x1 = 5;
+        console.log(x1)
+        console.log(typeof(x1))
+
+        let y1 = 10;
+        console.log(y1)
+        console.log(typeof(y1))
+
+        let z1 = 2;
+        console.log(z1)
+        console.log(typeof(z1))
+        
+        let operation =(x1 * z1) + y1; // RESULTADO DE LA OPERACION = 20
+        console.log(operation);
+        
+        let a = 3.14  // Sentencia
+        let A= "holas";
+        console.log(`${a} ${A}`)
+
+        let [x, y, z] = ["Orange", "Banana", "Cherry"]
+        console.log(x)
+        console.log(y)
+        console.log(z)
+
+        const obj={
+            name: "Jesus",
+            lastName: 'Benitez'
+        }
+        console.log(obj.name)
+        obj.name ="Jesus"
+        console.log(obj.name)
+
+        X="Hello World"
+        console.log(x.length)
+    </script>
+</body> 
+</html>   
